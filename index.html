@@ -4,9 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
-    
+    <header>
+        <h1 class="">Weather Dashboard</h1>
+    </header>
+
+    <main class="">
+        <div class="">
+            <form id="search-form" class="">
+                <h2 class="">Search for a City:</h2>
+                <input type="text" name="search" id="search" class="rounded-lg" placeholder="Dallas">
+                <button type="submit" id="search-btn" class="my-3 rounded-lg">Search</button>
+            </form>
+            <div id=""></div>
+        </div>
+
+        <div class="">
+            <div id="current-weather" class=""></div>
+            <div id="forecast" class="border border-secondary">
+                <h4 id="forecast-title"></h4>
+                <div id="forecast-card-container" class=""></div>
+            </div>
+        </div>
+    </main>
+    <script src="https://kit.fontawesome.com/53d380c88e.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
