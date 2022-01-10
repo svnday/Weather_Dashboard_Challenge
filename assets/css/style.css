@@ -10,3 +10,10 @@ ul {
     background-color: #286BC4;
     color: white;
 }
+
+.history-btn {
+    background-color: #ADD8E6;
+    color: black;
+    display: block;
+    width: 100%;
+}
