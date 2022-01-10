@@ -11,21 +11,21 @@
 </head>
 <body>
     <header>
-        <h1 class="">Weather Dashboard</h1>
+        <h1 class="border border-primary text-center text-white font-weight-bold">Weather Dashboard</h1>
     </header>
 
-    <main class="">
-        <div class="">
+    <main class="d-flex flex-wrap">
+        <div class="col-12 col-md-3 border border-primary">
             <form id="search-form" class="">
-                <h2 class="">Search for a City:</h2>
+                <h2 class="font-weight-bold">Search for a City:</h2>
                 <input type="text" name="search" id="search" class="rounded-lg" placeholder="Dallas">
                 <button type="submit" id="search-btn" class="my-3 rounded-lg">Search</button>
             </form>
-            <div id=""></div>
+            <div id="previous-searches"></div>
         </div>
 
-        <div class="">
-            <div id="current-weather" class=""></div>
+        <div class="col-12 col-md-9 border border-primary">
+            <div id="current-weather" class="border border-secondary"></div>
             <div id="forecast" class="border border-secondary">
                 <h4 id="forecast-title"></h4>
                 <div id="forecast-card-container" class=""></div>
